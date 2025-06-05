@@ -1,11 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Helllo World</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ArevSoft</title>
+    <link rel="stylesheet" href="./styles/base/reset.css" />
+    <link rel="stylesheet" href="./styles/base/variables.css" />
+    <link rel="stylesheet" href="./styles/base/responsive.css" />
+    <link rel="stylesheet" href="./styles/components/button.css" />
+    <link rel="stylesheet" href="./styles/components/header.css" />
+    <link rel="stylesheet" href="./styles/pages/home.css" />
+  </head>
+  <body>
+    <!-- Header  -->
+    <header class="header">
+      <div class="container">
+        <nav class="nav-bar">
+          <div class="logo">
+            <img src="./assets/logo.png" alt="logo" />
+          </div>
+          <ul class="nav-list">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">References</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <a href="#" class="btn">Book a demo</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <!-- hero-Section  -->
+      <section class="hero-img">
+        <div class="container">
+          <div class="hero-content">
+            <span class="top-text">15k users around the world</span>
+            <h1>
+              <span class="gradient">Advisors</span> first. Builders second.
+            </h1>
+            <p>
+              We partner with you to understand your challenges and craft custom
+              digital solutions that deliver real value.
+            </p>
+            <div class="btns">
+              <a href="#" class="btn lg-btn">Let's Talk</a>
+              <a href="#" class="btn underline-btn lg-btn">How we work</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Who we are Section  -->
+      <section class="who-we-are spacer">
+        <div class="container">
+          <div class="who-we-are-content">
+            <div class="text-content">
+              <span class="top-text">Who we are</span>
+              <h2>
+                Not just <span class="gradient">Developers</span>. Not just
+                <span class="gradient">Consultants</span>.
+              </h2>
+              <p>
+                We’re solution thinkers. Engineers, architects, and advisors who
+                analyze before we act — then build modern, scalable systems that
+                deliver value.
+              </p>
+              <a href="#" class="btn lg-btn">About Us</a>
+            </div>
+            <div class="image-content">
+              <img
+                src="./assets/home/who-we-are.png"
+                alt="who-we-are"
+                class="who-we-are-img"
+              />
+              <div class="customer-img">
+                <img src="./assets/home/customer.png" alt="customer-img" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- What we do Section  -->
+      <section class="what-we-do-section spacer">
+        <div class="conatiner">
+          <span class="top-text">What we do</span>
+          <div class="what-we-do-text">
+            <h2><span class="gradient">Advisory-first</span>, always.</h2>
+            <p>
+              We work alongside you to understand what’s broken, what’s
+              possible, and what makes sense.
+            </p>
+          </div>
+          <div class="what-we-do-cards">
+            <div class="card"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>

@@ -1,0 +1,17 @@
+:root {
+  --bg-color: #ffffff; /* White */
+
+  --primary-dark: #2b6f68; /* Dark teal - primary brand/dark sections */
+  --primary-light: #a9c7b3; /* Light mint - soft backgrounds */
+
+  --accent-teal: #4c8179; /* Muted teal - accents or buttons */
+  --background-light: #ddeee8; /* Very light mint - general background */
+
+  --text-primary: #1a1a1a; /* Main black text */
+  --text-secondary: #6b6b6b; /* Subdued gray text */
+  --background-neutral: #e8e8e8; /* Light gray background */
+
+  --highlight-gold: #d4a038; /* Highlight or warning (golden) */
+  --accent-blue: #426e86; /* Muted blue - alternate accent */
+  --deep-indigo: #100a55; /* Very dark indigo - footer, headings */
+}

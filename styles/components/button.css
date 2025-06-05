@@ -1,0 +1,27 @@
+.btn {
+  background-color: #131615;
+  color: #fff;
+  padding: 12px 24px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    background-color: var(--primary-dark);
+    color: #fff;
+  }
+}
+.underline-btn {
+  background-color: transparent;
+  border: 1px solid #131615;
+  color: #131615;
+}
+.underline-btn:hover {
+  background-color: #131615;
+  color: #fff;
+}
+.lg-btn {
+  height: 56px;
+  padding: 12px 32px;
+}
