@@ -1,5 +1,6 @@
 .hero-img {
-  height: 100vh;
+  min-height: 100vh;
+  padding-top: 32px;
   background: url("../../assets//home/home-hero.jpg");
   background-size: cover;
   background-position: center;
@@ -16,6 +17,7 @@
   justify-content: center;
   height: 100%;
   max-width: 50%;
+  padding-top: 50px;
 
   h1 {
     margin: 24px 0;
@@ -32,6 +34,7 @@
   display: flex;
   align-items: center;
   gap: 24px;
+  flex-wrap: wrap;
 }
 
 /* Who we are Section   */
@@ -74,4 +77,127 @@
       border-radius: 4px;
     }
   }
+}
+/* What we do Section  */
+.what-we-do-section {
+  background-color: #000;
+  padding: 80px 0;
+  .container {
+    .top-text {
+      color: #fff;
+      opacity: 80%;
+    }
+  }
+}
+.what-we-do-text {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 24px;
+  p {
+    color: #fff;
+    max-width: 42%;
+    opacity: 70%;
+  }
+  h2 {
+    color: #fff;
+  }
+}
+.what-we-do-cards {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 64px;
+  flex-wrap: wrap;
+
+  .card {
+    max-width: 350px;
+    background-color: #fff;
+    border: 1px solid var(--text-secondary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 24px;
+    transition: all 0.3s ease-in-out;
+
+    img {
+      width: 64px;
+      height: 64px;
+      object-fit: cover;
+    }
+    h4 {
+      font-size: 24px;
+      line-height: 125%;
+      letter-spacing: -0.001em;
+      font-weight: bold;
+      margin: 20px 0;
+    }
+    p {
+      opacity: 70%;
+      margin-bottom: 12px;
+    }
+    .learn-more {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: #131615;
+      font-size: 16px;
+      line-height: 160%;
+      font-weight: bold;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    &:hover {
+      transform: translateY(-8px);
+    }
+  }
+}
+
+/* Mind Set Section  */
+.mind-set-text-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.mind-set-text-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  h2 {
+    margin: 24px 0 18px;
+  }
+  p {
+    max-width: 490px;
+    margin-bottom: 48px;
+  }
+}
+.mind-set-image {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Foundation Section  */
+
+.foundation-content {
+  max-width: 42% !important;
+  h3 {
+    margin: 24px 0;
+  }
+}
+.foundation-img {
+  width: 100%;
+  object-fit: cover;
+  height: 450px;
 }

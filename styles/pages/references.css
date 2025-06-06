@@ -1,0 +1,112 @@
+.references-section {
+  padding-top: 120px;
+  .references-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    h1 {
+      text-align: center;
+      margin: 32px 0 28px;
+      width: 100%;
+    }
+    p {
+      text-align: center;
+      max-width: 550px;
+      font-size: 20px;
+      letter-spacing: -0.005em;
+    }
+    .references-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      width: 100%;
+    }
+  }
+}
+.references-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-top: 100px;
+}
+.references-card {
+  max-width: 412px;
+  max-height: 370px;
+  background-color: #f9f9f9;
+  border: 0.5px solid var(--text-secondary);
+  padding: 24px;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    transform: translateY(-8px);
+  }
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+}
+.card-text {
+  width: 100%;
+
+  p {
+    text-align: start !important;
+    font-size: 16px !important;
+  }
+  .top-para {
+    margin-bottom: 24px;
+  }
+}
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 32px;
+
+  .profile-img {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    border-radius: 99999px;
+  }
+  .profile-text {
+    h5 {
+      font-size: 14px;
+      font-weight: 400;
+      color: var(--text-secondary);
+    }
+    h4 {
+      font-size: 20px;
+      color: black !important;
+    }
+  }
+}
+.card-rating {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  svg {
+    fill: var(--highlight-gold);
+    cursor: pointer;
+  }
+}
+.card-2 {
+  min-height: 539px;
+}
+.card-4,
+.card-6 {
+  min-height: 437px;
+}
+.card-2-text {
+  font-size: 20px;
+  line-height: 160%;
+  letter-spacing: -0.005em;
+  font-weight: bold;
+  color: var(--deep-indigo);
+  text-wrap: auto;
+  margin-bottom: 24px;
+}

@@ -1,0 +1,142 @@
+@media (max-width: 1024px) {
+  .references-cards {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .card-1,
+  .card-2,
+  .card-3,
+  .card-4,
+  .card-5,
+  .card-6 {
+    max-width: 100% !important;
+    max-height: 100% !important;
+  }
+  .mobile-nav {
+    display: flex !important;
+    position: absolute;
+    top: 92px;
+    left: 0;
+    transition: all 0.3s ease-in-out;
+    transform: translateX(-100%);
+    background-color: #000;
+    z-index: 100;
+  }
+  .mobile-nav-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+    padding: 32px 48px;
+    a {
+      color: #fff;
+      opacity: 70%;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  .nav-list {
+    display: none !important;
+  }
+  .desk-btn {
+    display: none !important;
+  }
+}
+@media (max-width: 768px) {
+  .hero-content {
+    max-width: 100% !important;
+  }
+  .what-we-do-text p {
+    max-width: 100% !important;
+  }
+  .who-we-are-content {
+    flex-direction: column;
+    gap: 100px !important;
+    .text-content {
+      max-width: 100% !important;
+    }
+    .image-content {
+      max-width: 100% !important;
+      width: 100%;
+      .customer-img {
+        top: -80px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+  }
+  .cta-section {
+    padding: 32px 0 0 !important;
+  }
+  .cta-content {
+    flex-direction: column;
+  }
+  .cta-img {
+    display: none !important;
+  }
+  .cta-responsive-img {
+    display: block !important;
+  }
+  .cta-text {
+    max-width: 100% !important;
+    padding: 0 24px;
+  }
+  .cta-image {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 100%;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr !important;
+    .links {
+      padding-top: 16px;
+    }
+  }
+  .container {
+    padding: 0 32px;
+  }
+  .references-cards {
+    grid-template-columns: 1fr !important;
+  }
+}
+@media (max-width: 600px) {
+  .header {
+    .container {
+      padding-left: 0px !important;
+      padding-right: 20px !important;
+    }
+  }
+  .hero-content {
+    p {
+      font-size: 16px;
+    }
+  }
+  h1 {
+    font-size: 50px;
+  }
+  .footer-logo img {
+    width: 150px;
+    margin-left: -30px;
+  }
+  .links {
+    padding-top: 8px !important;
+    grid-template-columns: 1fr !important;
+    gap: 32px;
+  }
+  .faq-hero {
+    padding-top: 50px !important;
+  }
+  .footer-end {
+    padding: 32px 0;
+  }
+  .faq-label {
+    font-size: 16px !important;
+  }
+}
+@media (min-width: 1024px) {
+  .hamburger {
+    display: none !important;
+  }
+}
