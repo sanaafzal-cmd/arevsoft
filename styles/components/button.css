@@ -32,6 +32,6 @@
 }
 .bg-white:hover {
   border: 1px solid #fff;
-  color: #fff;
+  color: #fff !important;
   background-color: transparent;
 }
