@@ -169,9 +169,11 @@
   h1 {
     font-size: 50px;
   }
+  .footer-grid {
+    place-items: center;
+  }
   .footer-logo img {
     width: 150px;
-    margin-left: -30px;
   }
   .links {
     padding-top: 8px !important;
@@ -183,6 +185,9 @@
   }
   .footer-end {
     padding: 32px 0;
+    .container {
+      justify-content: center !important;
+    }
   }
   .faq-label {
     font-size: 16px !important;
@@ -207,5 +212,9 @@
 @media (min-width: 1024px) {
   .hamburger {
     display: none !important;
+  }
+  .card-4,
+  .card-6 {
+    margin-top: -164px;
   }
 }
