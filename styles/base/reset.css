@@ -140,6 +140,17 @@ p {
   color: var(--text-secondary);
   line-height: 160%;
 }
+.top-text-white {
+  color: white;
+  opacity: 70%;
+}
+.para-white {
+  color: white;
+  opacity: 80%;
+}
 .spacer {
   margin-top: 120px;
+}
+.text-white {
+  color: white;
 }

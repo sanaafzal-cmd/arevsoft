@@ -1,3 +1,16 @@
+@media (max-width: 1160px) {
+  .contact-form {
+    margin-top: 100px !important;
+  }
+  .contact-hero .container {
+    padding-bottom: 0 !important;
+    padding-top: 100px !important;
+  }
+  .contact-social {
+    position: static !important;
+    padding-bottom: 24px;
+  }
+}
 @media (max-width: 1024px) {
   .references-cards {
     grid-template-columns: repeat(2, 1fr) !important;
@@ -41,6 +54,37 @@
   }
   .desk-btn {
     display: none !important;
+  }
+  .strategy-content {
+    flex-direction: column !important;
+    .strategy-image {
+      img {
+        height: 100% !important;
+      }
+    }
+  }
+  .small-boxes {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .about-hero-text {
+    flex-direction: column !important;
+    align-items: start !important;
+    gap: 48px !important;
+    .about-customer-rating {
+      width: 100% !important;
+    }
+  }
+  .how-we-work-content {
+    flex-direction: column-reverse !important;
+    .how-we-work-img {
+      width: 100% !important;
+      img {
+        width: 100% !important;
+      }
+    }
+  }
+  .team-cards {
+    grid-template-columns: repeat(2, 1fr) !important;
   }
 }
 @media (max-width: 768px) {
@@ -101,6 +145,12 @@
   .references-cards {
     grid-template-columns: 1fr !important;
   }
+  .team-cards {
+    grid-template-columns: 1fr !important;
+  }
+  .form-group {
+    flex-direction: column !important;
+  }
 }
 @media (max-width: 600px) {
   .header {
@@ -134,6 +184,22 @@
   }
   .faq-label {
     font-size: 16px !important;
+  }
+  .small-boxes {
+    grid-template-columns: 1fr !important;
+  }
+  .erp-big-cards,
+  .erp-small-cards {
+    grid-template-columns: 1fr !important;
+  }
+  .erp-small-card {
+    max-width: 100% !important;
+  }
+  .small-box {
+    max-width: 100% !important;
+  }
+  img {
+    height: auto !important;
   }
 }
 @media (min-width: 1024px) {

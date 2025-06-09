@@ -1,0 +1,232 @@
+.services-hero {
+  background: url("../../assets/services/hero-img.jpg");
+  background-size: cover;
+  background-position: center;
+  padding-top: 0;
+  display: flex;
+  align-items: center;
+}
+.hero-content {
+  h1 {
+    color: black;
+    margin-top: 0;
+    margin-bottom: 32px;
+  }
+  p {
+    color: black;
+  }
+  .btns {
+    margin-top: 56px;
+  }
+}
+.strategy-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 68px;
+  .strategy-image {
+    img {
+      width: 100%;
+      height: 609px;
+      object-fit: cover;
+    }
+  }
+}
+.strategy-text {
+  h2 {
+    margin: 20px 0;
+  }
+  p {
+    margin-bottom: 32px;
+  }
+  a {
+    max-width: max-content;
+  }
+}
+.small-boxes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 48px;
+  gap: 16px;
+}
+.small-box {
+  display: flex;
+  max-width: 400px;
+  gap: 24px;
+  border: 1px solid var(--text-secondary);
+  padding: 20px;
+
+  img {
+    width: 44px;
+    height: 44px;
+    object-fit: cover;
+  }
+  .small-box-text {
+    h4 {
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 125%;
+      letter-spacing: -0.001em;
+      margin-bottom: 12px;
+    }
+    p {
+      font-size: 15px;
+    }
+  }
+}
+.erp-solutions-section {
+  background-color: black;
+  padding: 100px 0;
+  width: 100%;
+  display: flex;
+}
+.erp-solutions-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  h2 {
+    text-align: center;
+    color: #fff;
+    margin: 24px 0;
+  }
+  p {
+    color: #fff;
+    opacity: 70%;
+    max-width: 500px;
+    text-align: center;
+  }
+}
+
+.erp-big-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-top: 56px;
+}
+.erp-big-card {
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid var(--text-secondary);
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  gap: 24px;
+  max-width: 575px;
+  transition: all 0.3s ease-in-out;
+  .erp-big-card-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    h4 {
+      font-size: 20px;
+      line-height: 125%;
+      letter-spacing: -0.001em;
+      font-weight: 400;
+    }
+  }
+  &:hover {
+    transform: translateY(-8px);
+  }
+}
+.erp-small-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-top: 48px;
+}
+.erp-small-card {
+  max-width: 365px;
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid var(--text-secondary);
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  gap: 24px;
+  transition: all 0.3s ease-in-out;
+  h4 {
+    letter-spacing: -0.001em;
+    font-weight: 400;
+  }
+  img {
+    border-radius: 12px;
+  }
+  &:hover {
+    transform: translateY(-8px);
+  }
+}
+ul.custom-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 48px;
+}
+
+ul.custom-list li::before {
+  content: "▶";
+  color: var(--deep-indigo);
+  opacity: 80%;
+  display: inline-block;
+  width: 1em;
+  margin-right: 12px;
+  font-size: 14px;
+}
+
+ul.custom-list li {
+  font-size: 16px;
+  color: var(--deep-indigo);
+  opacity: 80%;
+  margin-bottom: 16px;
+}
+.cloud-solutions-section {
+  background-color: black;
+  padding: 100px 0;
+  width: 100%;
+}
+.cloud-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+
+  h2 {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 24px;
+  }
+  p {
+    max-width: 500px;
+    text-align: center;
+  }
+}
+.cloud-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 32px;
+  margin-top: 64px;
+}
+.cloud-card {
+  max-width: 330px;
+  background-color: #fff;
+  border: 1px solid var(--text-secondary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 24px;
+  padding-top: 36px;
+  padding-bottom: 32px;
+  transition: all 0.3s ease-in-out;
+  h4 {
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  &:hover {
+    transform: translateY(-8px);
+  }
+}
