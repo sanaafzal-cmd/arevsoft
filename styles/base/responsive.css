@@ -204,7 +204,12 @@
   }
   .small-box {
     max-width: 100% !important;
+    img {
+      height: 44px !important;
+      width: 44px !important;
+    }
   }
+
   img {
     height: auto !important;
   }
