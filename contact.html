@@ -169,7 +169,12 @@
       <!-- Contact Form Section  -->
       <section class="contact-form-section">
         <div class="container no-container">
-          <form class="contact-form">
+          <form
+            class="contact-form"
+            target="_blank"
+            action="https://formsubmit.co/ali.zinlab@gmail.com"
+            method="POST"
+          >
             <h2>Contact Us</h2>
             <div class="form-group">
               <div class="group">
@@ -196,6 +201,7 @@
                   id="name"
                   name="name"
                   placeholder="Enter your name"
+                  required
                 />
               </div>
               <div class="group">
@@ -222,6 +228,7 @@
                   name="email"
                   id="email"
                   placeholder="Email"
+                  required
                 />
               </div>
             </div>
@@ -251,6 +258,7 @@
             <textarea
               name="message"
               id="message"
+              required
               placeholder="Type your message..."
             ></textarea>
             <div class="contact-button">
