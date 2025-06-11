@@ -221,6 +221,25 @@
   .card-6 {
     min-height: 539px !important;
   }
+
+  .team-card {
+    img {
+      height: 380px !important;
+      width: 360px !important;
+    }
+  }
+  .no-container {
+    max-width: 100%;
+    width: 100%;
+    padding: 0 !important;
+  }
+
+  .pl-8 {
+    padding-left: 32px;
+  }
+  .pr-8 {
+    padding-right: 32px;
+  }
 }
 @media (min-width: 1024px) {
   .hamburger {
