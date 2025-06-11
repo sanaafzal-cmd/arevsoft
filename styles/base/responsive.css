@@ -197,7 +197,7 @@
   }
   .erp-big-cards,
   .erp-small-cards {
-    grid-template-columns: 1fr !important;
+    flex-wrap: wrap !important;
   }
   .erp-small-card {
     max-width: 100% !important;

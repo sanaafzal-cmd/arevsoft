@@ -99,8 +99,9 @@
 }
 
 .erp-big-cards {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  justify-content: center;
+
   gap: 24px;
   margin-top: 56px;
 }
@@ -131,12 +132,14 @@
   }
 }
 .erp-small-cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
+  display: flex;
+  justify-content: center;
+
+  gap: 32px;
   margin-top: 48px;
 }
 .erp-small-card {
+  width: 100%;
   max-width: 365px;
   cursor: pointer;
   background-color: #fff;
